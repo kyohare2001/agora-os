@@ -1,6 +1,6 @@
 MIT License
 
-Copyright (c) 2025 kyohare2001
+Copyright (c) 2025 Kyosuke Hara (github.com/kyohare2001)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -19,3 +19,18 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+---
+ADDITIONAL NOTICE (Kyosuke Hara / kyohare2001 License Supplement):
+
+This project was conceived, designed, and initiated by Kyosuke. While the code
+is MIT-licensed and open for contribution, the philosophical vision, brand,
+and initial architecture belong to the original author.
+
+Commercial use, forks, or derivative works must give proper credit and consider
+revenue sharing or contributor rewards when applicable.
+
+Contributors are welcomed, will be acknowledged, and will be compensated fairly
+in future phases when monetization is implemented.
+
+We aim to grow this project not only as software, but as a shared intellectual and creative journey. All contributors are invited to co-evolve the vision and shape the future together.
