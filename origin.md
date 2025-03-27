@@ -1,0 +1,1 @@
+Kyosuke, a student of Computer Science and Political Science, inspired by philosophy, society, and global citizenship. This is the first public manifestation of a lifelong inner thought: that thinking itself can become the next frontier of shared innovation.
