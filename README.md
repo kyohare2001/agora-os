@@ -44,4 +44,5 @@ This is not just the information age anymore. It is the age of meaning-making.
 * Auth: Clerk or Auth0 (with KYC verification)
 * Hosting: Vercel
 
+Note: Agora OS is not an operating system in the traditional sense. It is a conceptual OS — a new base layer for real-time, multilingual, and ethical collaboration of thought between humans and AI.
 
