@@ -1,48 +1,92 @@
-# Agora OS: Real-Time Thought Collaboration Platform
-An open-source platform where human ideas, AI reflection, and global collaboration meet.
+# Agora AI
 
-## Vision
-### Why"Agora"?
-  In ancient Greece, the "Agora" was not just a market - It was the public squre, the intellectual heart of the city-state. People gathered there to exchange not only goods, but also ideas, values, philosophies, and visions for thier society. 
-  By naming this project "Agora OS," we aim to reimagine that space for the digital and AI age—where thought itself becomes a form of contribution, and participation in dialogue becomes a civic act.
+思想と思想が交差し、深まり合う"対話空間"をAIと共に創るプラットフォーム。
 
-  Agora OS is a platform for modern thinkers, doers, and builders to co-create in public—not for likes, but for impact. It is a return to the communal roots of dialogue, now powered by global language translation, ethical AI, and real-time co-presence.
+## ✨ コンセプト
 
-  To bridge local human experiences with a globally shared stream of thought. Agora OS enables people to openly express, refine, and evolve their ideas in real-time through conversations with AI, while allowing others around the world to join, co-think, and take action.
+現代のSNSが"意見のぶつけ合い"や"承認欲求の応酬"に陥りがちな中で、個人の思想や問いがじっくり熟成され、他者と交差する場としての「現代のアゴラ（広場）」を、AIの力を使って再定義します。
 
-  "思考を孤立させない。人の社会への問いの瞬間に立ち会い、共鳴し、行動へつなげる。"
+## 🚀 主な機能
 
-## Philosophical Foundation
-  We are living in a time where AI increasingly handles the "execution" of tasks, automation of workflows, and even creative generation. As that happens, what becomes scarce—and thus valuable—is human thought, perspective, and ethical grounding.
+1. 思考スレッド投稿（Thread of Thought）
+   - 完成された意見ではなく「問い」「違和感」「思考のメモ」をポスト
+   - 思考の過程を重視した投稿形式
 
-This is not just the information age anymore. It is the age of meaning-making.
+2. AIによる問いの深化・整理
+   - 投稿された問いや思考に対し、AIが関連文献・概念・反論視点などを提案
+   - 思考を深めるためのサポート
 
-  Agora OS responds to this shift. It gives space for individuals to think not faster, but deeper. To bring their lived experience into dialogue with global thought flows. To be part of a new civic layer built not on noise, but resonance.
+3. 共鳴と対話（Resonance + Reflect）
+   - "いいね"ではなく、共鳴・問い返し・内省の共有といった"対話ベースの反応"
+   - 深い対話を促進する仕組み
 
-* Thought is not just private — it is social, ethical, and creative.
-* Real innovation comes from the intersection of local reality and global collaboration.
-* AI should not dominate thought, but act as a respectful and reflective co-thinker.
-* Thinking can be playful, exploratory, yet rooted in dignity and shared ethics.
+4. 思想プロフィール
+   - ユーザーの思考ログが蓄積され、自分の思想の変遷を時系列で確認可能
+   - 思考の成長を可視化
 
-## Core Concepts
-### 1. Live Thought Rooms
-  AI and humans engage in real-time dialogues, openly streamable. Others can silently observe, join, or comment. Every conversation becomes part of the shared "Mind Stream."
-### 2. Thought Canvas
-  Ideas, fragments, and questions are stored not as lists, but as a visual network — linkable, expandable, and collaboratively editable. Like thinking on an infinite whiteboard.
-### 3. Ethical AI Partner
-  Users can select or train AI personas that hold ethical/philosophical/technological values. The AI asks counter-questions, provides insight, and respects the user’s intellectual process.
-### 4. Multilingual Real-Time Translation
-  Everyone speaks their own language — GPT-based translation makes all thought globally readable and joinable.
-### 5. Resonance System
-  When your idea aligns with someone else's, you get notified — encouraging real-time co-thinking, co-writing, or even project launches.
+## 🛠️ 技術スタック
 
-## System & Tech Stack (Proposal v0.1) 
-* Frontend: Next.js + Tailwind CSS
-* Backend: FastAPI
-* Database: Supabase or Firebase
-* AI: OpenAI API (GPT, Whisper), LangChain
-* Auth: Clerk or Auth0 (with KYC verification)
-* Hosting: Vercel
+### フロントエンド
+- Next.js 14
+- TypeScript
+- Tailwind CSS
+- React Query
 
-Note: Agora OS is not an operating system in the traditional sense. It is a conceptual OS — a new base layer for real-time, multilingual, and ethical collaboration of thought between humans and AI.
+### バックエンド
+- FastAPI
+- Python 3.10+
+- Supabase
+- OpenAI API
+- LangChain
+
+## 🚀 開発環境のセットアップ
+
+### 必要条件
+- Node.js 18+
+- Python 3.10+
+- npm or yarn
+- Supabase アカウント
+- OpenAI API キー
+
+### フロントエンドのセットアップ
+
+```bash
+cd frontend
+npm install
+npm run dev
+```
+
+### バックエンドのセットアップ
+
+```bash
+cd backend
+python -m venv venv
+source venv/bin/activate  # Windows: venv\Scripts\activate
+pip install -r requirements.txt
+uvicorn main:app --reload
+```
+
+### 環境変数の設定
+
+1. バックエンドの `.env` ファイルを設定
+2. フロントエンドの環境変数を設定
+
+## 📝 開発ガイドライン
+
+- コミットメッセージは日本語で記述
+- プルリクエストは日本語で説明
+- コードコメントは日本語で記述
+- 変数名・関数名は英語で記述
+
+## 🤝 コントリビューション
+
+1. このリポジトリをフォーク
+2. 新しいブランチを作成 (`git checkout -b feature/amazing-feature`)
+3. 変更をコミット (`git commit -m '素晴らしい機能を追加'`)
+4. ブランチにプッシュ (`git push origin feature/amazing-feature`)
+5. プルリクエストを作成
+
+## 📄 ライセンス
+
+このプロジェクトは MIT ライセンスの下で公開されています。詳細は [LICENSE](LICENSE) ファイルを参照してください。
 
